@@ -48,7 +48,7 @@ const Wrapper = styled.div`
   justify-content: center;
 `;
 
-function App() {
+const App: React.FC = () => {
   return (
     <>
       <GlobalStyle></GlobalStyle>
@@ -67,6 +67,6 @@ function App() {
       </StyledApp>
     </>
   );
-}
+};
 
 export default App;
