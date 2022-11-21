@@ -8,7 +8,7 @@ const handleClick = (event: React.MouseEvent) => {
   console.log(event.target);
 };
 
-export const addToDo: React.FC = () => {
+export const AddToDo: React.FC = () => {
   return (
     <form onSubmit={handleSubmit}>
       <input type='text' name='addToDo' id='addToDo' />
