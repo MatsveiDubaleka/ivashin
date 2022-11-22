@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { createGlobalStyle } from 'styled-components';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-import { AddToDo } from './components/addToDo';
+import { AddToDo } from './components/AddToDo';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -59,8 +59,9 @@ const App: React.FC = () => {
         </Header>
         <Main>
           <Wrapper>
-            <AddToDo />
             <h1>Main</h1>
+            <AddToDo />
+            <div className='todo-container'></div>
           </Wrapper>
         </Main>
         <Footer>
